@@ -1,12 +1,27 @@
 ![HLS_Logo](./img/HLS_Logo.png)
 
-# A-HLS Dual Pick List Documentation
-
-https://confluence.internal.salesforce.com/display/INDUSTRYARCH/LWC+-+Dual+PickList
+# A-HLS Simple Map Documentation
 
 ## Overview
 
-Add Brief overview
+Displays a Google Map based on fields identified on the record.  Component settings allow the definition of:
+
+- Map Height
+
+- Fields for each location data point
+
+- Pin Title
+
+- Pin Description
+
+- LWC Title and Icon
+
+  ![simpleMap](./img/simpleMap.png)
+
+
+
+![simpleMapSetup](./img/simpleMapSetup.png)
+
 * * *
 
 ## Business Objective

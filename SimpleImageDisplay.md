@@ -1,12 +1,28 @@
 ![HLS_Logo](./img/HLS_Logo.png)
 
-# A-HLS Dual Pick List Documentation
-
-https://confluence.internal.salesforce.com/display/INDUSTRYARCH/LWC+-+Dual+PickList
+# A-HLS Simple Image Display Documentation
 
 ## Overview
 
-Add Brief overview
+Displays an image based on a URL provided.  LWC Configuration includes:
+
+- URL for the image
+- Background Color
+- Alignment of the image in the space provided
+- Definition (%) of the width used for the image
+- CSS position definition relative to the LWC placement
+- Z-Index of the image (For placement on top of or behind other page elements)
+
+![simpleImageDisplay](./img/simpleImageDisplay.png)
+
+
+
+![simpleImageDisplaySetup](./img/simpleImageDisplaySetup.png)
+
+
+
+
+
 * * *
 
 ## Business Objective

@@ -1,12 +1,26 @@
 ![HLS_Logo](./img/HLS_Logo.png)
 
-# A-HLS Dual Pick List Documentation
-
-https://confluence.internal.salesforce.com/display/INDUSTRYARCH/LWC+-+Dual+PickList
+# A-HLS Simple Gauge Documentation
 
 ## Overview
 
-Add Brief overview
+Displays a Gauge chart based on two fields on the record the LWC is place on - one for the current value, and one for the max value.  Leverages Gauge JS that is based on Chart.js code.  LWC Configuration includes:
+
+- Set the size of the three zones (two directly, one for what is left)
+- Define Zone color
+- Define help text, LWC title, and LWC Icon
+- Set the height of the LWC
+
+
+
+![simpleGauge](./img/simpleGauge.png)
+
+
+
+![simpleGaugeSetup](./img/simpleGaugeSetup.png)
+
+
+
 * * *
 
 ## Business Objective

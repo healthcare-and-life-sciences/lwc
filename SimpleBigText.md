@@ -1,12 +1,33 @@
 ![HLS_Logo](./img/HLS_Logo.png)
 
-# A-HLS Dual Pick List Documentation
-
-https://confluence.internal.salesforce.com/display/INDUSTRYARCH/LWC+-+Dual+PickList
+# A-HLS Simple Big Text Documentation
 
 ## Overview
 
-Add Brief overview
+Displays a field of information, with optional formatting.  LWC Configuration includes:
+
+- LWC Title and Icon
+
+- Help Text
+
+- Background Color
+
+- Field alignment in the LWC space
+
+- Percentage of space used by LWC
+
+- CSS Value for font size
+
+- CSS Value for font color
+
+  
+
+  ![simpleBigText](./img/simpleBigText.png)
+
+
+
+![simpleBigTextSetup](./img/simpleBigTextSetup.png)
+
 * * *
 
 ## Business Objective

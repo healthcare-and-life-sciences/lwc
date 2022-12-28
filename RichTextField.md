@@ -1,8 +1,10 @@
 ![HLS_Logo](./img/HLS_Logo.png)
 
-# A-HLS Dual Pick List Documentation
+# A-HLS Rich Text Field LWC Documentation
 
-https://confluence.internal.salesforce.com/display/INDUSTRYARCH/LWC+-+Dual+PickList
+https://confluence.internal.salesforce.com/display/INDUSTRYARCH/LWC+-+Rich+Text+Field
+
+
 
 ## Overview
 

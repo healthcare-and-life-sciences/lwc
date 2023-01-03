@@ -1,4 +1,4 @@
-![HLS_Logo](./img/HLS_Logo.png)
+![Logo](./images/ahlsbanner.png)
 
 # A-HLS Simple Map Documentation
 
@@ -16,11 +16,11 @@ Displays a Google Map based on fields identified on the record.  Component setti
 
 - LWC Title and Icon
 
-  ![simpleMap](./img/simpleMap.png)
+  ![simpleMap](./images/simpleMap.png)
 
 
 
-![simpleMapSetup](./img/simpleMapSetup.png)
+![simpleMapSetup](./images/simpleMapSetup.png)
 
 * * *
 

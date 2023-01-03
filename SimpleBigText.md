@@ -1,4 +1,4 @@
-![HLS_Logo](./img/HLS_Logo.png)
+![Logo](./images/ahlsbanner.png)
 
 # A-HLS Simple Big Text Documentation
 
@@ -22,11 +22,11 @@ Displays a field of information, with optional formatting.  LWC Configuration in
 
   
 
-  ![simpleBigText](./img/simpleBigText.png)
+  ![simpleBigText](./images/simpleBigText.png)
 
 
 
-![simpleBigTextSetup](./img/simpleBigTextSetup.png)
+![simpleBigTextSetup](./images/simpleBigTextSetup.png)
 
 * * *
 

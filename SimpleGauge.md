@@ -1,4 +1,4 @@
-![HLS_Logo](./img/HLS_Logo.png)
+![Logo](./images/ahlsbanner.png)
 
 # A-HLS Simple Gauge Documentation
 
@@ -13,11 +13,11 @@ Displays a Gauge chart based on two fields on the record the LWC is place on - o
 
 
 
-![simpleGauge](./img/simpleGauge.png)
+![simpleGauge](./images/simpleGauge.png)
 
 
 
-![simpleGaugeSetup](./img/simpleGaugeSetup.png)
+![simpleGaugeSetup](./images/simpleGaugeSetup.png)
 
 
 

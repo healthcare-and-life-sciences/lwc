@@ -1,4 +1,4 @@
-![HLS_Logo](./img/HLS_Logo.png)
+![Logo](./images/ahlsbanner.png)
 
 # A-HLS Simple Checklist Documentation
 
@@ -25,9 +25,9 @@ This LWC provides the following functionality:
   
     
 
-![simpleChecklist](./img/simpleChecklist.png)
+![simpleChecklist](./images/simpleChecklist.png)
 
-Add Brief overview
+
 
 * * *
 

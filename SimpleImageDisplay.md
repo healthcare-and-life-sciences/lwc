@@ -1,4 +1,4 @@
-![HLS_Logo](./img/HLS_Logo.png)
+![Logo](./images/ahlsbanner.png)
 
 # A-HLS Simple Image Display Documentation
 
@@ -13,11 +13,11 @@ Displays an image based on a URL provided.  LWC Configuration includes:
 - CSS position definition relative to the LWC placement
 - Z-Index of the image (For placement on top of or behind other page elements)
 
-![simpleImageDisplay](./img/simpleImageDisplay.png)
+![simpleImageDisplay](./images/simpleImageDisplay.png)
 
 
 
-![simpleImageDisplaySetup](./img/simpleImageDisplaySetup.png)
+![simpleImageDisplaySetup](./images/simpleImageDisplaySetup.png)
 
 
 

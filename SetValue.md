@@ -1,6 +1,6 @@
 ![Logo](./images/ahlsbanner.png)
 
-# A-HLS Set Value Documentation
+# A-HLS Set Value (Combobox) Documentation
 
 https://confluence.internal.salesforce.com/display/INDUSTRYARCH/LWC+-+DR%2C+IP+or+SetValue+sourced+Single+Select+%28drop+down%29+LWC
 

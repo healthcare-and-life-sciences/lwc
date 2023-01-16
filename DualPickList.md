@@ -8,9 +8,9 @@ https://confluence.internal.salesforce.com/display/INDUSTRYARCH/LWC+-+Dual+PickL
 
 Add Brief overview
 
+![dualPikList](./images/dualPikList.png)
 
 
-![img](https://confluence.internal.salesforce.com/download/attachments/324865555/image2021-3-22_17-29-18.png?version=1&modificationDate=1616449850160&api=v2)
 
 * * *
 

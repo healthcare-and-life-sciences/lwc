@@ -1,4 +1,4 @@
-![HLS_Logo](./img/HLS_Logo.png)
+![HLS_Logo](./images/ahlsbanner.png)
 
 # A-HLS Dual Pick List Documentation
 

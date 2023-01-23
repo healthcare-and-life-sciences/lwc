@@ -2,118 +2,26 @@
 
 # A-HLS Dual Pick List Documentation
 
-https://confluence.internal.salesforce.com/display/INDUSTRYARCH/LWC+-+Dual+PickList
-
 ## Overview
 
-Add Brief overview
+This custom LWC renders a Dual PickList of values that are contained in a node within the Omniscript. This provides an alternative UI element to the normal multi-select.  
+
+Examples of creating data to populate the Dual PickList choices for this custom LWC include the following:
+
+- SetValues statement
+- DataRaptor
+- Integration Procedure (including obtaining data from another system via API)
+
+The result is a UI component displaying choices on the left and selected items on the right. Shown below is screenshot of the sfiArch_DualPickList used in an Omniscript.
 
 ![dualPikList](./images/dualPikList.png)
 
+As the user selects picklist value(s) and moves the to the right, the OmniScript Data JSON is updated accordingly reflecting the selection.
 
-
-* * *
-
-## Business Objective
-
-Add Accelerator Objective
-
-## Business Value and Benefits
-
-* Add
-* Add
-
-* Add
-* Add
+At its core, this component uses the Salesforce [lightning-dual-listbox LWC](https://developer.salesforce.com/docs/component-library/bundle/lightning-dual-listbox/example). Refer to the lightning-dual-listbox documentation for more details. 
 
 * * *
 
-## Industry Focus and Workflow
+### **OmniScript Demo/DuelPickList**
 
-### Primary Industry:
-
-* Add
-* Add
-
-### Primary User Persona:
-
-* Add
-* Add
-
-### User Workflow:
-
-* Add
-* Add
-
-* * *
-
-## Package Includes:
-
-### **OmniScript (#)**
-
-* Add
-* Add
-* Add
-
-### **DataRaptor (#)**
-
-* Add
-* Add
-* Add
-
-### **Custom Components (#)**
-
-* Add
-* Add
-* Add
-
-* * *
-
-## Configuration Requirements
-
-### Pre-Install Configuration Steps:
-
-1. Add
-2. Add
-
-#### Install the Data Pack
-
-1. The Data Pack folder in the following GitHub repository contains one (1) DPA Data Pack. Please download the Data Pack and save them to your desktop: **[INSERT GITHUB REPO LINK]**
-2. Then, complete the following steps to import them into your Salesforce org.
-    1. To Import, in your destination Salesforce org, Click on **App Launcher** → Search for '**OmniStudio DataPacks**' and click on it.
-    2. Click on '**Installed**' and on the right side click on '**Import from**'.
-    3. Select '**From File**' - When the window opens, select the Data Pack file that you downloaded and stored on your machine. Click '**Install**'.
-3. More about DataRaptors: https://trailhead.salesforce.com/content/learn/modules/omnistudio-dataraptors
-
-### Post-Install Configuration Steps:
-
-1. Add
-2. Add
-
-* * *
-
-## Assumptions
-
-1. Add
-2. Add
-
-* * *
-
-## Revision History
-
-* **Revision Short Description (Month Day, Year)**
-
-    * Add
-    * Add
-
-* * *
-
-## Internal Only Information
-
-* Accelerate HLS Website Link:
-* Accelerator Info:
-    * Vidyard Link:
-    * YouTube Link:
-    * Picture:
-    *  GitHub Repo:
-
+This OS shows how to use the DuelPickList LWC. 

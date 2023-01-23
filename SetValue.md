@@ -8,109 +8,34 @@ https://confluence.internal.salesforce.com/display/INDUSTRYARCH/LWC+-+DR%2C+IP+o
 
 ## Overview
 
-Add Brief overview
-* * *
+This custom LWC renders a dropdown, picklist of values that are contained in a node within the Omniscript. This provides flexibility in how picklist values are derived.   
 
-## Business Objective
+Examples of creating data to populate picklist choices for this custom LWC include the following:
 
-Add Accelerator Objective
+- SetValues statement
+- DataRaptor
+- Integration Procedure (including obtaining data from another system via API)
 
-## Business Value and Benefits
+The standard Omniscript element type of Select, only supports populating the picklist choices from one of the following:
 
-* Add
-* Add
+- sObject picklist
+- static (manually entered) list of values
+- custom Apex class
 
-* Add
-* Add
+The result is a dropdown that is visually similar to the Omniscript Select element. Shown below is screenshot of the sfiArch_ComboBox used in an Omniscript
 
-* * *
+![setValueSample](./images/setValueSample.png)
 
-## Industry Focus and Workflow
 
-### Primary Industry:
-
-* Add
-* Add
-
-### Primary User Persona:
-
-* Add
-* Add
-
-### User Workflow:
-
-* Add
-* Add
 
 * * *
 
-## Package Includes:
 
-### **OmniScript (#)**
-
-* Add
-* Add
-* Add
-
-### **DataRaptor (#)**
-
-* Add
-* Add
-* Add
-
-### **Custom Components (#)**
-
-* Add
-* Add
-* Add
 
 * * *
 
-## Configuration Requirements
+## Package
 
-### Pre-Install Configuration Steps:
+### **OmniScript Demo\Combobox**
 
-1. Add
-2. Add
-
-#### Install the Data Pack
-
-1. The Data Pack folder in the following GitHub repository contains one (1) DPA Data Pack. Please download the Data Pack and save them to your desktop: **[INSERT GITHUB REPO LINK]**
-2. Then, complete the following steps to import them into your Salesforce org.
-    1. To Import, in your destination Salesforce org, Click on **App Launcher** → Search for '**OmniStudio DataPacks**' and click on it.
-    2. Click on '**Installed**' and on the right side click on '**Import from**'.
-    3. Select '**From File**' - When the window opens, select the Data Pack file that you downloaded and stored on your machine. Click '**Install**'.
-3. More about DataRaptors: https://trailhead.salesforce.com/content/learn/modules/omnistudio-dataraptors
-
-### Post-Install Configuration Steps:
-
-1. Add
-2. Add
-
-* * *
-
-## Assumptions
-
-1. Add
-2. Add
-
-* * *
-
-## Revision History
-
-* **Revision Short Description (Month Day, Year)**
-
-    * Add
-    * Add
-
-* * *
-
-## Internal Only Information
-
-* Accelerate HLS Website Link:
-* Accelerator Info:
-    * Vidyard Link:
-    * YouTube Link:
-    * Picture:
-    *  GitHub Repo:
-
+The above OS shows how to set the values for the drop down field. At its core, this component uses the Salesforce [lightning-combobox LWC](https://developer.salesforce.com/docs/component-library/bundle/lightning-combobox/example). Refer to the lightning-combobox documentation for more details. 

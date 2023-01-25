@@ -33,4 +33,4 @@ The above OS shws how the Gauge is used
 
 ### Pre-Install Configuration Steps:
 
-Make sure the static resource 
+Make sure the static resource found at https://github.com/healthcare-and-life-sciences/lwc/tree/main/src/staticresources 

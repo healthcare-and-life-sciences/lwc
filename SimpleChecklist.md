@@ -29,6 +29,14 @@ This LWC provides the following functionality:
 
 
 
+
+
+```
+<property name="enableAdd" type="Boolean" default="true" label="Enable the Add and Delete buttons?" description="Checking this will allow Users to add and remove checklist items.  Unchecking this will remove that ability, but will still allow interaction with the checklist items." />
+<property name="enableCheckboxes" type="Boolean" default="true" label="Enable the checkboxes?" description="Checking this will allow Users to use the checkboxes to mark an item completed.  Unchecking this will remove that ability." />
+<property name="enableSequenceNumbers" type="Boolean" default="true" label="Enable the display of order number?" description="Checking this will allow Users to see where the sort number for their Tasks.  Unchecking this will remove that display." />
+```
+
 ![simpleChecklistSetup](./images/simpleChecklistSetup.png)
 
 * * *

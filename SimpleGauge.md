@@ -23,7 +23,7 @@ Displays a Gauge chart based on two fields on the record the LWC is place on - o
 
 * * *
 
-### **OmniScript Demo/SimpleGaugeSample
+### OmniScript Demo/SimpleGaugeSample
 
 The above OS shws how the Gauge is used
 

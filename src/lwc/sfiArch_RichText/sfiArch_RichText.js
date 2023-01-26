@@ -8,6 +8,7 @@
  * of this element.
  *
  * @author Dean Fischesser <dfischesser@vlocity.com>
+ *
  **/
 
 import {LightningElement,track,api} from 'lwc';
@@ -15,9 +16,6 @@ import {OmniscriptBaseMixin} from 'vlocity_ins/omniscriptBaseMixin';
 
 export default class sfiArch_RichText extends OmniscriptBaseMixin(LightningElement) {
 
-
-
-    // @api myVal ='this is intial';
     @api richtextvalue;
     @api myVal='Enter Rich Text';
 
@@ -32,7 +30,7 @@ export default class sfiArch_RichText extends OmniscriptBaseMixin(LightningEleme
     handleBlur(evt){
         let selectedItem = [];
         selectedItem.push({enteredData:evt.target.value});
+        console.log(evt.target.value);
         this.omniUpdateDataJson(selectedItem);
     }
-
 }

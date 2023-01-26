@@ -1,0 +1,17 @@
+<template>
+    <template if:true={showUnavailable}>
+        <lightning-card
+            title={quickChecklistUnavailableTitle}
+            icon-name="action:announcement">
+            <div style="padding-left: 1.5em; padding-right: 1.5em;">
+                    Please configure the component with valid values.
+            </div>
+        </lightning-card>
+    </template>
+    <template if:false={showUnavailable}>
+        <lightning-card title={lwc_title} icon-name={simple_icon} style="text-align:center" >
+            <div style="overflow:hidden"><canvas class='gauge' style={gaugeStyles} lwc:dom="manual"></canvas> <br /></div>
+            <div class="gaugeValue" style="font-size: 20px;"></div><lightning-helptext content={simple_help_text}></lightning-helptext>
+        </lightning-card>
+    </template>
+</template>

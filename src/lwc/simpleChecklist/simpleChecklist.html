@@ -1,0 +1,28 @@
+<!-- sldsValidatorIgnore -->
+<template>
+        <lightning-card
+            title={simple_checklist_title}
+            label="Checklist"
+            icon-name="standard:task">
+            <template if:true={options} iterator:acc={options}>
+                <div class="slds-grid slds-gutters" key={acc.value.value}>
+                    <div class="slds-size_1-of-12" style="padding-left: unset;" key={acc.value.value} if:true={showDeleteChecklist}>
+                        <lightning-button-icon name={acc.value.label} key={acc.value.name} icon-name="utility:clear" variant="container" alternative-text="Delete this item" label="Delete action" title="Delete action" onclick={deleteClick} style="height:1em; top: -0.3em; position: relative;" class="slds-m-around_none slds-p-around_none slds-float_right slds-button_icon slds-button_icon-current-color"></lightning-button-icon>
+                    </div>
+                    <div class="slds-size_10-of-12 slds-cell-wrap" key={acc.value.value} if:true={showDeleteChecklist}>
+                        <lightning-input if:true={acc.value.value} checked="checked" key={acc.value.label} name={acc.value.label} type="checkbox" class="LWCChecklist" onchange={checklistChecked} label={acc.value.label} style="text-decoration: line-through;"></lightning-input>
+                        <lightning-input if:false={acc.value.value} key={acc.value.label} name={acc.value.label} type="checkbox" class="LWCChecklist" onchange={checklistChecked} label={acc.value.label}></lightning-input>
+                    </div>
+                    <div class="slds-size_11-of-12 slds-cell-wrap" key={acc.value.value} if:false={showDeleteChecklist}>
+                        <lightning-input if:true={acc.value.value} checked="checked" key={acc.value.label} name={acc.value.label} type="checkbox" class="slds-var-m-left_xx-large LWCChecklist" onchange={checklistChecked} label={acc.value.label} style="text-decoration: line-through;"></lightning-input>
+                        <template if:true={enable_checkboxes}><lightning-input if:false={acc.value.value} key={acc.value.label} name={acc.value.label} type="checkbox" class="slds-var-m-left_xx-large LWCChecklist" onchange={checklistChecked} label={acc.value.label}></lightning-input></template>
+                        <template if:false={enable_checkboxes}><div class="slds-var-m-left_xx-large">{acc.value.label}</div></template>
+                    </div>
+                </div>
+            </template>
+            <div if:true={enableAdd} class="slds-align_absolute-center slds-var-p-top_small">
+                <lightning-button variant="brand" label={addItemLabel} title="Primary action" onclick={showAddComponent} class=""></lightning-button>
+                <lightning-button variant="base" label={deleteItemLabel} title="Primary action" onclick={showDeleteButtons} class="slds-button_text-destructive"></lightning-button>
+            </div>
+        </lightning-card>
+</template>

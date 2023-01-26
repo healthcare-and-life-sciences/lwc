@@ -2,8 +2,9 @@
     <LightningComponentBundle xmlns="http://soap.sforce.com/2006/04/metadata">
         <apiVersion>56.0</apiVersion>
         <isExposed>true</isExposed>
-        <runtimeNamespace>vlocity_ins</runtimeNamespace>
-        <masterLabel>sfiArch_ComboBox</masterLabel>
+    <runtimeNamespace>vlocity_ins</runtimeNamespace>
+        <masterLabel>sfiArch ComboBox</masterLabel>
+        <description>DR, IP or SetValue sourced Single Select (Drop Down) LWC</description>
         <targets>
           <target>lightning__RecordPage</target>
           <target>lightning__AppPage</target>

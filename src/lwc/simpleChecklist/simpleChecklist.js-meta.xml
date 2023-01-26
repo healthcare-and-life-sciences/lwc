@@ -3,11 +3,10 @@
     <apiVersion>56.0</apiVersion>
     <isExposed>true</isExposed>
     <runtimeNamespace>vlocity_ins</runtimeNamespace>
-    <masterLabel>sfiArch RichText</masterLabel>
-    <description>Rich Text Field</description>
     <targets>
         <target>lightning__RecordPage</target>
         <target>lightning__AppPage</target>
         <target>lightning__HomePage</target>
     </targets>
+    <masterLabel>Simple Checklist</masterLabel>
 </LightningComponentBundle>

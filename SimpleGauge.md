@@ -16,17 +16,27 @@ Displays a Gauge chart based on two fields on the record the LWC is place on - o
 ![simpleGauge](./images/simpleGauge.png)
 
 ```
-<property name="LWCTitle" type="String" label="Title" default="Simple Gauge" description="Title of the component when displayed on the record page" />
-<property name="gaugeHeight" type="String" label="Graph Height" default="13rem" description="Enter the height of the gauge in CSS acceptable units" />
-<property name="simpleIcon" type="String" label="Icon Reference" default="utility:graph" description="Icon identifier for this component" />
-<property name="simpleHelpText" type="String" label="Help Text" description="The text that shows in the help icon on the component "/>
-<property name="currentValueField" type="String" label="API Name of the field containing the current value" />
-<property name="maxValueField" type="String" label="API Name of the field containing the max value" />
-<property name="zone1Color" type="String" default="yellow" label="CSS Color definition for the first zone" />
-<property name="zone1Max" type="Integer" default="25" label="Percentage of chart max to end Zone 1" />
-<property name="zone2Color" type="String" default="#30B32D" label="CSS Color definition for the second zone" />
-<property name="zone2Max" type="Integer" default="75" label="Percentage of chart max to end Zone 2" />
-<property name="zone3Color" type="String" default="red" label="CSS Color definition for the third zone" />
+<property name="lwc_title" type="String" label="Title" default="Simple Gauge" description="Title of the component when displayed on the record page"
+
+property name="gauge_height" type="String" label="Graph Height" default="13rem" description="Enter the height of the gauge in CSS acceptable units"
+
+property name="simple_icon" type="String" label="Icon Reference" default="utility:graph" description="Icon identifier for this component" 
+
+property name="simple_help_text" type="String" label="Help Text" description="The text that shows in the help icon on the component"
+
+property name="current_value_field" type="String" label="API Name of the field containing the current value"
+
+property name="max_value_field" type="String" label="API Name of the field containing the max value"
+
+property name="zone1_color" type="String" default="yellow" label="CSS Color definition for the first zone"
+
+property name="zone1_max" type="Integer" default="25" label="Percentage of chart max to end Zone 1"
+
+property name="zone2_color" type="String" default="#30B32D" label="CSS Color definition for the second zone" 
+
+property name="zone2_max" type="Integer" default="75" label="Percentage of chart max to end Zone 2"
+
+property name="zone3_color" type="String" default="red" label="CSS Color definition for the third zone"
 ```
 
 

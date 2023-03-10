@@ -1,6 +1,6 @@
 ![Logo](./images/ahlsbanner.png)
 
-# A-HLS [Accelerator] Documentation 
+# A-HLS Confluence Conversion LWCs Documentation 
 
 ## Overview
 

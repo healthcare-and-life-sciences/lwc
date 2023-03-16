@@ -32,7 +32,7 @@ The goal of this project is to provide Omnistudio developers with LWC compoennts
 
 
 
-SF supports two different versions of Omniscripts where these LWC's can be used. These LWC's are ready to be used in vlocity_ins but if you are using Omnistudio Core, then you need to make the follwoing change on the LWC JS file
+SF supports two different versions of Omniscripts where these LWC's can be used. These LWC's are ready to be used in vlocity_ins but if you are using Omnistudio Core, then you need to make the following change on the LWC JS file
 
 
 
